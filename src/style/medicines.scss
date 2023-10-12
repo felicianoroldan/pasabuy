@@ -147,7 +147,7 @@ ul {
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
   padding: 0.375rem 0.75rem;
-  box-shadow: var(--shadow-2);
+  box-shadow: var(--shadow-1);
   transition: var(--transition);
   text-transform: capitalize;
   display: inline-block;
@@ -262,45 +262,7 @@ ul {
 //responsiveness
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .imgsize{
-    height: 10rem;
-  }
-
-  .cardsize{
-    width: 95vw;
-  }
-
-  .card-title{
-    font-size: 1rem;
-    font-family: var(--headingFont);
-    font-weight: 500;
-  }
-
-  .iconstar{
-    color: var(--accent);
-  }
-
-  .card-price{
-    margin-top: -1.3rem;
-    margin-left: -.2rem;
-  }
-
-  .aicircle{
-    color: var(--accent);
-  }
-
-  .aicircle:hover{
-    color: #e62a1d;
-  }
-
-  .maincard-1{
-    margin-bottom:10rem;
-  }
-
-
-
-}
+@media only screen and (max-width: 600px) {}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}

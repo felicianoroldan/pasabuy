@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from './Navbar';
 import "/src/style/home.scss";
 import Pasabuy from "/src/assets/photos/Pasabuy.png";
 import Jollibee from "/src/assets/photos/Jollibee.jpg";
@@ -21,7 +20,6 @@ import KSTD from "/src/assets/photos/KSTD.jpg";
 import Manginasal from "/src/assets/photos/Manginasal.jpg";
 import mcdonalds from "/src/assets/photos/mcdonalds.jpg";
 import { Link } from 'react-router-dom';
-import Footer from './Footer';
 
 
 
@@ -34,7 +32,6 @@ import Footer from './Footer';
 function Home() {
   return (
     <>
-    <Navbar/>
     <div className='landing-background'>
       <div className="card text-bg-dark">
         <img src={Pasabuy} alt="" className='landing-photo opacity-75 h-75 '/>
@@ -246,7 +243,6 @@ function Home() {
         </button>
       </div>
     </div>
-    <Footer/>
     </>
   )
 }

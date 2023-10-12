@@ -1,6 +1,7 @@
 
 import "/src/style/navbar.scss";
 import sticker from "/src/assets/photos/sticker.png";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -16,10 +17,10 @@ function Navbar() {
             <span className="navbar-text ms-5">
               <ul className="navbar-nav me-4 mb-1 mb-lg-0 nav-container">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#"><span className="home navtextcolor ms-2">Home</span></a>
+                  <a href="/" className="nav-link active" aria-current="page"><span className="home navtextcolor ms-2">Home</span></a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#"><span className="ms-2 navtextcolor">About</span></a>
+                  <a className="nav-link" href="/about"><span className="ms-2 navtextcolor">About</span></a>
                 </li>
                 <li className="nav-item dropdown">
                   <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -67,10 +68,10 @@ function Navbar() {
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#"><span className="ms-2 navtextcolor">Groceries</span></a>
+                  <a className="nav-link" href="/groceries"><span className="ms-2 navtextcolor">Groceries</span></a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#"><span className="ms-2 navtextcolor">Medicines</span></a>
+                  <a className="nav-link" href="/medicines"><span className="ms-2 navtextcolor">Medicines</span></a>
                 </li>
               </ul>
             </span>
