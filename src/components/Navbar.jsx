@@ -1,5 +1,6 @@
 
 import "/src/style/navbar.scss";
+import sticker from "/src/assets/photos/sticker.png";
 
 function Navbar() {
   return (
@@ -7,7 +8,7 @@ function Navbar() {
       <div>
       <nav className="navbar navbar-expand-lg navbody">
         <div className="container-fluid">
-          <a className="navbar-brand ms-3" href="#"><span className="jessieWebsite">Pasabuy Website</span></a>
+          <a className="navbar-brand ms-3" href="#"><img src={sticker} alt="" width="70px"/> <span className="jessieWebsite fw-bold">Pasabuy Iba</span></a>
           <button className="navbar-toggler me-3 bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon "></span>
           </button>

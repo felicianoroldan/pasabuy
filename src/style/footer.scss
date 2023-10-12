@@ -260,94 +260,28 @@ ul {
 }
 
 
-// start navBar
+//footer start
 
-.navbody {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman';
-  background-color: rgba(255, 193, 7, 1);
- 
-}
-
-.bg-navbar{
-  background-color: #ece5c9;
-}
-
-.link-menu{
+.footer{
   font-family: var(--headingFont);
 }
-
-.overflow-auto{
-  height: 40vh;
-}
-
-.navtextcolor{
-  color: black;
-}
-
-
 
 
 //responsiveness
 
-
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-  .nav-item{
-    border-radius: 2px solid;
-  }
-
-  .nav-item:hover{
-    background-color:  #9487519f;
-    width: 95vw;
-  }
-
-  .dropdownNav:hover{
-    background-color:  #c5a113;
-  }
-
-}
+@media only screen and (max-width: 600px) {}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-}
+@media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-}
+@media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .link-menu{
-    margin-left: 4rem;
-    font-size: 1.2rem;
-
-  }
-}
+@media only screen and (min-width: 992px) {}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .link-menu{
-    margin-left: 12rem;
-  }
-
-  .jessieWebsite{
-    margin-left: 5rem;
-  }
-}
-
-
-@media only screen and (min-width: 1500px) {
-  .link-menu{
-    margin-left: 27rem;
-  }
-
-}
+@media only screen and (min-width: 1200px) {}
 
 

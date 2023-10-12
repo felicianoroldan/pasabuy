@@ -5,7 +5,7 @@ import "/src/style/greenwich.scss";
 function Greenwich() {
 
   useEffect(() => {
-    document.title = "Greenwich";
+    document.title = "greenwich";
   }, []);
 
 
