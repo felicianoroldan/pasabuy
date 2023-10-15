@@ -55,10 +55,10 @@ function Home() {
                </Link>
               </div>
               <div className="col-4">
-               <a href="https://www.facebook.com/pages/Jollibee-IbaZambales-branch/174916829262529" className='storenamedecoration'>
+               <Link to="/jollibee" className='storenamedecoration'>
                 <img src={Jollibee} className="img-fluid d-block w-100 rounded-2 restaurantimg h-75 ms-2" alt="Jollibee-Photo"/> 
                 <p className='text-center'><span className='storeName fw-bold'>Jollibee-Iba</span></p>
-               </a>             
+               </Link>             
               </div>
               <div className="col-4">
                <a href="#" className='storenamedecoration'>
