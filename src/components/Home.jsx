@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "/src/style/home.scss";
 import Pasabuy from "/src/assets/photos/Pasabuy.png";
 import Jollibee from "/src/assets/photos/Jollibee.jpg";
@@ -30,6 +30,11 @@ import { Link } from 'react-router-dom';
 
 
 function Home() {
+
+  useEffect(() => {
+    document.title = "home"
+  }, []);
+  
   return (
     <>
     <div className='landing-background'>

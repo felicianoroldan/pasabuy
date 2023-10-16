@@ -15,7 +15,9 @@ function App() {
 
   return (
     <>
+      <div className="sticky-top">
       <Navbar />
+      </div>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={ <Home /> } />
@@ -26,7 +28,7 @@ function App() {
           <Route path="/jollibee" element={ <Jollibee />} />
         </Routes>
       </BrowserRouter>
-      <div className="mt-3">
+      <div className="mt-2">
       <Footer />
       </div>
     </>
