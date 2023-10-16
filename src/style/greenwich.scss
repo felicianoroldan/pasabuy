@@ -142,7 +142,7 @@ ul {
 .btn {
   cursor: pointer;
   color: var(--white);
-  background: var(--primary-500);
+  background: var(--accent);
   border: transparent;
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
@@ -153,7 +153,7 @@ ul {
   display: inline-block;
 }
 .btn:hover {
-  background: var(--primary-600);
+  background: var(#e62a1d);
   box-shadow: var(--shadow-3);
 }
 .btn-hipster {
@@ -162,7 +162,7 @@ ul {
 }
 .btn-hipster:hover {
   color: var(--primary-200);
-  background: var(--primary-600);
+  background: var(#e62a1d);
 }
 .btn-block {
   width: 100%;
@@ -294,9 +294,6 @@ ul {
     color: #e62a1d;
   }
 
-  .maincard-1{
-    margin-bottom:10rem;
-  }
 
   .gAddTo{
     font-size: .5rem;

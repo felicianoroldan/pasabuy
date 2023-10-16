@@ -142,7 +142,7 @@ ul {
 .btn {
   cursor: pointer;
   color: var(--grey-400);
-  background: var(--primary-500);
+  background: var(--accent);
   border: transparent;
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
@@ -282,6 +282,24 @@ ul {
   .jAddto{
     font-size: .8rem;
   }
+
+  .jmaincard{
+    margin-top: -5rem;
+  }
+
+  .addToCart-J{
+    font-size: .7rem;
+  }
+  
+  
+  .aicircle{
+    color: var(--accent);
+  }
+
+  .aicircle:hover{
+    color: #e62a1d;
+  }
+
 
 
 }

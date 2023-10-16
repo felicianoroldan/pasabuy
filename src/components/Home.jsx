@@ -183,7 +183,7 @@ function Home() {
             <div className="row">
               <div className="col-3">
                <img src={shawarma} className="d-block w-75 ms-3 rounded-3 cuisinesimg" alt="..."/>
-               <p className='text-center'><span className='storeName'>Shawarma</span></p>
+               <p className='text-center'><span className='storeName ms-3'>Shawarma</span></p>
               </div>
               <div className="col-3">
                <img src={sisig} className="d-block w-75 rounded-3 cuisinesimg ms-3" alt="..."/> 
