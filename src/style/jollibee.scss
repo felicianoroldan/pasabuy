@@ -141,7 +141,7 @@ ul {
 
 .btn {
   cursor: pointer;
-  color: var(--white);
+  color: var(--grey-400);
   background: var(--primary-500);
   border: transparent;
   border-radius: var(--borderRadius);
@@ -276,12 +276,13 @@ ul {
   }
 
   .backicon{
-    margin-top: 7rem;
+    margin-top: 6.3rem;
   }
 
   .jAddto{
     font-size: .8rem;
   }
+
 
 }
 
