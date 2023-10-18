@@ -7,7 +7,7 @@ import Groceries from "./pages/Groceries"
 import Medicines from "./pages/Medicines"
 import Greenwich from "./pages/Greenwich"
 import Jollibee from "./pages/Jollibee"
-import ShoppingCart from "./components/Shoppingcart"
+import ShoppingCart from "./components/ShoppingCart"
 
 
 
