@@ -8,6 +8,8 @@ export default function About() {
   }, []);
 
   return (
-    <div>About</div>
+    <>
+      <div className='mt-5 text-center'>About</div>
+    </>
   )
 }

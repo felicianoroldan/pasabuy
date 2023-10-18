@@ -41,10 +41,10 @@ html {
   --black: #222;
   --white: #fff;
   --red-light: #f8d7da;
-  --red-dark: #dc3545;
+  --red-dark: #842029;
   --green-light: #d1e7dd;
   --Pharmaceutical-green: #0B7D46 ;  /*original color*/
-  --yellow: #ffc107;  /*original color*/
+  --koji-orange: #F5B445;  /*original color*/
 
   /* fonts  */
   --headingFont: 'Roboto', sans-serif;
@@ -141,7 +141,7 @@ ul {
 
 .btn {
   cursor: pointer;
-  color: var(--grey-400);
+  color: var(--white);
   background: var(--accent);
   border: transparent;
   border-radius: var(--borderRadius);
@@ -263,46 +263,18 @@ ul {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .card-title-j{
-    font-size: .8rem;
+  .cartitem{
+    margin-top: 6.2rem;
   }
 
-  .r1{
-    margin-left: .0rem;
-  }
-
-  .shad{
-    box-shadow: var(--shadow-2);
-  }
-
-  .backicon{
-    margin-top: 6.5rem;
+  .cartcolor
+  {
     color: #ffc107;
   }
 
-  .jAddto{
-    font-size: .8rem;
+  .itemquantity{
+    text-decoration: none;
   }
-
-  .jmaincard{
-    margin-top: -5rem;
-  }
-
-  .addToCart-J{
-    font-size: .7rem;
-  }
-  
-  
-  .aicircle{
-    color: var(--accent);
-  }
-
-  .aicircle:hover{
-    color: #e62a1d;
-  }
-
-
-
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

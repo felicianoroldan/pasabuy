@@ -7,6 +7,7 @@ import Groceries from "./pages/Groceries"
 import Medicines from "./pages/Medicines"
 import Greenwich from "./pages/Greenwich"
 import Jollibee from "./pages/Jollibee"
+import ShoppingCart from "./components/Shoppingcart"
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <div className="sticky-top">
       <Navbar />
       </div>
+      <ShoppingCart />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={ <Home /> } />
@@ -26,6 +28,7 @@ function App() {
           <Route path="/medicines" element={ <Medicines />} />
           <Route path="/greenwich" element={ <Greenwich />} />
           <Route path="/jollibee" element={ <Jollibee />} />
+          <Route path="/shoppingcart" element={ <ShoppingCart />} />
         </Routes>
       </BrowserRouter>
       <div className="mt-2">

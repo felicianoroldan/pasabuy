@@ -20,7 +20,7 @@ function Jollibee() {
     <>
       <div>
         <Link to="/">
-          <MdOutlineArrowBack size={20} className="ms-4 fixed-top backicon" />
+          <MdOutlineArrowBack size={20} className="ms-3 fixed-top backicon" />
         </Link>
         <div className="conteiner">
           <div className="row d-flex justify-content-center mt-5">
