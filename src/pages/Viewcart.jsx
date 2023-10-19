@@ -48,7 +48,7 @@ function Viewcart() {
                 </div>
               </div>
             </div>
-            <div className="col-3 text-end viewamount"><TbCurrencyPeso size={15} className="mb-1" />5.00</div>
+            <div className="col-3 text-end viewamount"><TbCurrencyPeso size={15} className="mb-1" />350.00</div>
           </div>
         </div>
         <div className="container-fluid mt-5">
