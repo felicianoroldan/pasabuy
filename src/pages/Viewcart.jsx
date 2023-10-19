@@ -57,7 +57,7 @@ function Viewcart() {
              <p className='fw-semibold'>Total</p>
             </div>
             <div className="col-6">
-            <div className="text-end fw-semibold"><TbCurrencyPeso size={15} className="mb-1" />5.00</div>
+            <div className="text-end fw-semibold"><TbCurrencyPeso size={15} className="mb-1" />350.00</div>
             </div>
           </div>
         </div>
