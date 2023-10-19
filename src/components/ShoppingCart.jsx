@@ -13,7 +13,7 @@ function ShoppingCart() {
       <div className="text-end cartitem fixed-top">
         <Link to="/viewcart" className='itemquantity'>
           <BsCart4 size={20} className="" />
-          <span className="fw-semibold cartcolor ms-1">1</span>
+          <span className="fw-semibold cartcolor ms-1">2</span>
         </Link>
       </div>
     </>

@@ -51,13 +51,43 @@ function Viewcart() {
             <div className="col-3 text-end viewamount"><TbCurrencyPeso size={15} className="mb-1" />350.00</div>
           </div>
         </div>
+        <div className="container-fluid mt-4">
+          <div className="row">
+            <div className="col-4">
+              <select className="form-select" aria-label="Default select example">
+                <option value>1</option>
+                <option value="1">Remove</option>
+                <option value="1">2</option>
+                <option value="2">3</option>
+                <option value="1">4</option>
+                <option value="2">5</option>
+                <option value="1">6</option>
+                <option value="2">7</option>
+                <option value="2">8</option>
+                <option value="1">9</option>
+                <option value="2">10</option>
+              </select>
+            </div>
+            <div className="col-5">
+              <div className="row">
+                <div className="col-6">
+                  <img src={greenwich} alt=""className='rounded-2' width="50px"/>
+                </div>
+                <div className="col-6">
+                  <p className='viewitem'>Pizza Overload w/ solo</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3 text-end viewamount"><TbCurrencyPeso size={15} className="mb-1" />250.00</div>
+          </div>
+        </div>
         <div className="container-fluid mt-5">
           <div className="row">
             <div className="col-6">
              <p className='fw-semibold'>Total</p>
             </div>
             <div className="col-6">
-            <div className="text-end fw-semibold"><TbCurrencyPeso size={15} className="mb-1" />350.00</div>
+            <div className="text-end fw-semibold"><TbCurrencyPeso size={15} className="mb-1" />600.00</div>
             </div>
           </div>
         </div>
