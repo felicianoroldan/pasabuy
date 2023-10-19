@@ -16,7 +16,7 @@ function Greenwich() {
   return (
     <>
       <Link to="/">
-        <MdOutlineArrowBack size={20} className="ms-3 fixed-top g-backicon" />
+        <MdOutlineArrowBack size={20} className="ms-4 fixed-top g-backicon" />
       </Link>
       <GwichCard/>
     </>

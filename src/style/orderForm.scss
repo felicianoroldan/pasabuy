@@ -43,11 +43,11 @@ html {
   --red-light: #f8d7da;
   --red-dark: #842029;
   --green-light: #d1e7dd;
-  --Pharmaceutical-green: #0B7D46 ;  /*original color*/
-  --koji-orange: #F5B445;  /*original color*/
+  --red: #e52b1b ;  /*original color*/
+  --koji-yellow: #ffc107;  /*original color*/
 
   /* fonts  */
-  --headingFont: 'Roboto', sans-serif;
+  --headingFont: 'Arial, Helvetica, sans-serif';
   --bodyFont: 'Nunito', sans-serif;
   --smallText: 0.7em;
   /* rest of the vars */
@@ -147,13 +147,13 @@ ul {
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
   padding: 0.375rem 0.75rem;
-  box-shadow: var(--shadow-2);
+  box-shadow: var(--shadow-1);
   transition: var(--transition);
   text-transform: capitalize;
   display: inline-block;
 }
 .btn:hover {
-  background: var(#e62a1d);
+  background: var(--primary-600);
   box-shadow: var(--shadow-3);
 }
 .btn-hipster {
@@ -162,7 +162,7 @@ ul {
 }
 .btn-hipster:hover {
   color: var(--primary-200);
-  background: var(#e62a1d);
+  background: var(--primary-600);
 }
 .btn-block {
   width: 100%;
@@ -263,59 +263,26 @@ ul {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .imgsize{
-    height: 10rem;
-  }
-
-  .cardsize{
-    width: 95vw;
-  }
-
-  .card-title{
-    font-size: .7rem;
+  .optional{
+    background-color: var(--grey-200);
+    font-size: .8rem;
     font-family: var(--headingFont);
-    font-weight: 500;
   }
 
-  .iconstar{
-    color: var(--accent);
+  .select{
+    margin-top: -1rem;
+    color: var(--grey-500);
+    font-family: var(--headingFont);
   }
 
-  .card-price{
-    margin-top: -1.3rem;
-    margin-left: -.2rem;
-    font-size: .7rem;
+  .fontfamily{
+    font-family: var(--headingFont);
   }
 
-  .view{
-    font-size: .7rem;
-  }
-  .aicircle{
-    color: var(--accent);
-  }
-
-  .aicircle:hover{
-    color: #e62a1d;
-  }
-
-
-  .gAddTo{
+  .notes{
+    font-family: var(--headingFont);
     font-size: .8rem;
   }
-
-  .gprice{
-    font-size: .8rem;
-  }
-
-  .gMaincard{
-    width: 95vw;
-  }
-
-  .g-backicon{
-    margin-top: 5.5rem;
-    
-  }
-
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

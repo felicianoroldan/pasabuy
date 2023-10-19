@@ -5,16 +5,18 @@ import { Link } from 'react-router-dom';
 
 function ShoppingCart() {
   useEffect(() => {
-    document.title = 'Shopping Cart';
+    document.title = 'ShoppingCart';
   }, []);
 
   return (
-    <div className="text-end cartitem me-5 fixed-top">
-      <a href="#" className='itemquantity'>
-        <BsCart4 size={30} className="me-3 cartcolor" />
-        <span className="fw-bold cartcolor">0</span>
-      </a>
-    </div>
+    <>
+      <div className="text-end cartitem fixed-top">
+        <Link to="/viewcart" className='itemquantity'>
+          <BsCart4 size={20} className="" />
+          <span className="fw-semibold cartcolor ms-1">1</span>
+        </Link>
+      </div>
+    </>
   );
 }
 

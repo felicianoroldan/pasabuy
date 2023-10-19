@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "/src/style/jollibee.scss";
+import "../style/jollibee.scss";
 import chickenjoy from "/src/assets/photos/chickenjoy.jpg";
 import { AiFillStar } from "react-icons/ai";
 import { TbCurrencyPeso } from "react-icons/tb";
@@ -20,9 +20,9 @@ function Jollibee() {
     <>
       <div>
         <Link to="/">
-          <MdOutlineArrowBack size={20} className="ms-3 fixed-top backicon" />
+          <MdOutlineArrowBack size={20} className="ms-4 fixed-top backicon" />
         </Link>
-        <div className="conteiner">
+        <div className="conteiner-fluid">
           <div className="row d-flex justify-content-center mt-5">
             <div className="col-5">
               <div className="card text-bg-white shad">

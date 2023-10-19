@@ -264,16 +264,18 @@ ul {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .cartitem{
-    margin-top: 6.2rem;
-  }
-
-  .cartcolor
-  {
-    color: #ffc107;
+    margin-top: 5rem;
+    margin-right: 2.5rem;
   }
 
   .itemquantity{
     text-decoration: none;
+    color: red;
+  }
+
+  .cartcolor{
+    color: var(--black);
+    font-size: .8rem;
   }
 }
 
